@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagazineApplication", "MagazineApplication\MagazineApplication.csproj", "{075ABB92-F10B-40B0-9454-2D3E6DFD0D81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{1C753A39-0A62-4FAA-A881-0B127CA8D129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess Layer", "DataAccess Layer", "{972EA20D-294D-4289-AE88-514F7A20CB94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{2A130901-74DA-4DCC-BC53-B7BB2FECFA35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{EEAE68D3-A95D-4957-8BCC-4A02EB5C021B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{075ABB92-F10B-40B0-9454-2D3E6DFD0D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075ABB92-F10B-40B0-9454-2D3E6DFD0D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075ABB92-F10B-40B0-9454-2D3E6DFD0D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075ABB92-F10B-40B0-9454-2D3E6DFD0D81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{075ABB92-F10B-40B0-9454-2D3E6DFD0D81} = {2A130901-74DA-4DCC-BC53-B7BB2FECFA35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8058C2B8-EF2B-44A7-AD5A-D306ED6E6221}
+	EndGlobalSection
+EndGlobal
