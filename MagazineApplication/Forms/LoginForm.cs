@@ -1,4 +1,5 @@
 ﻿
+using MagazineApplication.Forms;
 using ModelsLibrary;
 using System;
 using System.Windows.Forms;
@@ -30,9 +31,17 @@ namespace MagazineApplication
 
             if (IsAuthenticated(UserNameTextBox.Text, PasswordTextBox.Text))
             {
+                BaseForm baseForm = new BaseForm();
+                this.Hide();
+                //baseForm.FormBorderStyle = FormBorderStyle.None;
+                baseForm.WindowState = FormWindowState.Maximized;
+                baseForm.TopMost = true;
+                baseForm.ShowDialog();
+                
+
+
 
             }
-
         }
 
 
