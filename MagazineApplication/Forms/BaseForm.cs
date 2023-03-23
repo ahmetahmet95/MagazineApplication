@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -43,5 +44,19 @@ namespace MagazineApplication.Forms
             MessageBox.Show("Opened!");
         }
 
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonLogOut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

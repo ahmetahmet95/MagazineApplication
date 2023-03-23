@@ -1,6 +1,5 @@
 ﻿
 using MagazineApplication.Forms;
-using ModelsLibrary;
 using System;
 using System.Windows.Forms;
 
@@ -26,8 +25,8 @@ namespace MagazineApplication
 
         private void login_Click(object sender, EventArgs e)
         {
-            LoginInfo.UserName = UserNameTextBox.Text;
-            LoginInfo.Password = PasswordTextBox.Text;
+            //LoginInfo.UserName = UserNameTextBox.Text;
+            //LoginInfo.Password = PasswordTextBox.Text;
 
             if (IsAuthenticated(UserNameTextBox.Text, PasswordTextBox.Text))
             {
@@ -35,7 +34,8 @@ namespace MagazineApplication
                 this.Hide();
                 //baseForm.FormBorderStyle = FormBorderStyle.None;
                 baseForm.WindowState = FormWindowState.Maximized;
-                baseForm.TopMost = true;
+                //baseForm.TopMost = true;
+                
                 baseForm.ShowDialog();
                 
 
