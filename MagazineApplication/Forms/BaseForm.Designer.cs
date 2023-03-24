@@ -36,24 +36,15 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
@@ -96,22 +87,16 @@
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.tableLayoutPanel2.ColumnCount = 5;
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.12788F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.87212F));
             this.tableLayoutPanel2.Controls.Add(this.panel2, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel3, 1, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel4, 2, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel5, 3, 0);
-            this.tableLayoutPanel2.Controls.Add(this.panel6, 4, 0);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(13, 12);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1002, 64);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(396, 64);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // panel2
@@ -121,7 +106,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(3, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(194, 58);
+            this.panel2.Size = new System.Drawing.Size(192, 58);
             this.panel2.TabIndex = 0;
             // 
             // label1
@@ -142,92 +127,32 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.button2);
-            this.panel3.Location = new System.Drawing.Point(203, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(194, 58);
-            this.panel3.TabIndex = 5;
-            // 
-            // button2
-            // 
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(4, 4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 50);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "Add";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.button3);
-            this.panel4.Location = new System.Drawing.Point(403, 3);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(194, 58);
-            this.panel4.TabIndex = 6;
-            // 
-            // button3
-            // 
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(4, 4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(187, 51);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Update";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.buttonUpdate_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.button4);
-            this.panel5.Location = new System.Drawing.Point(603, 3);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(194, 58);
-            this.panel5.TabIndex = 7;
-            // 
-            // button4
-            // 
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(4, 4);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(187, 50);
-            this.button4.TabIndex = 0;
-            this.button4.Text = "Delete";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.buttonDelete_Click);
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.button5);
-            this.panel6.Location = new System.Drawing.Point(803, 3);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(196, 58);
-            this.panel6.TabIndex = 8;
-            // 
-            // button5
-            // 
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(1, 4);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(192, 50);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "LogOut";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.buttonLogOut_Click);
-            // 
             // panelMain
             // 
             this.panelMain.Location = new System.Drawing.Point(220, 80);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(1087, 672);
             this.panelMain.TabIndex = 2;
+            // 
+            // button2
+            // 
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(186, 50);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "LogOut";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.button2);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(201, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(192, 58);
+            this.panel3.TabIndex = 10;
             // 
             // BaseForm
             // 
@@ -246,9 +171,6 @@
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
-            this.panel4.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
-            this.panel6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -265,11 +187,5 @@
         private System.Windows.Forms.Panel panelMain;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button5;
     }
 }
